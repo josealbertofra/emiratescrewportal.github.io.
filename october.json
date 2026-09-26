@@ -2,64 +2,73 @@
   {
     "date": "01 OCT",
     "flight": "EK380",
-    "route": "DXB\u2192HKG",
+    "from": "DXB",
+    "to": "HKG",
     "aircraft": "A380",
     "block": "7:25"
   },
   {
     "date": "02 OCT",
     "flight": "EK381",
-    "route": "HKG\u2192DXB",
+    "from": "HKG",
+    "to": "DXB",
     "aircraft": "A380",
     "block": "8:10"
   },
   {
     "date": "05 OCT",
     "flight": "EK167",
-    "route": "DXB\u2192HEL",
-    "aircraft": "A350-900",
+    "from": "DXB",
+    "to": "HEL",
+    "aircraft": "A350",
     "block": "7:05"
   },
   {
-    "date": "09\u201312 OCT",
-    "flight": "EK255/256",
-    "route": "BCN\u2192MEX",
+    "date": "09 OCT",
+    "flight": "EK255",
+    "from": "BCN",
+    "to": "MEX",
     "aircraft": "B777-200LR",
     "block": "15:10"
   },
   {
     "date": "15 OCT",
     "flight": "EK005",
-    "route": "DXB\u2192LHR",
+    "from": "DXB",
+    "to": "LHR",
     "aircraft": "A380",
     "block": "7:35"
   },
   {
     "date": "19 OCT",
     "flight": "EK161",
-    "route": "DXB\u2192DUB",
+    "from": "DXB",
+    "to": "DUB",
     "aircraft": "B777-300ER",
     "block": "8:05"
   },
   {
     "date": "23 OCT",
     "flight": "EK318",
-    "route": "DXB\u2192NRT",
+    "from": "DXB",
+    "to": "NRT",
     "aircraft": "A380",
     "block": "9:25"
   },
   {
     "date": "26 OCT",
     "flight": "EK512",
-    "route": "DXB\u2192DEL",
+    "from": "DXB",
+    "to": "DEL",
     "aircraft": "A380",
     "block": "3:30"
   },
   {
     "date": "30 OCT",
     "flight": "EK143",
-    "route": "DXB\u2192MAD",
-    "aircraft": "A350-900",
+    "from": "DXB",
+    "to": "MAD",
+    "aircraft": "A350",
     "block": "7:45"
   }
 ]
