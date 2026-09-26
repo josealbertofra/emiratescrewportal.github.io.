@@ -1,28 +1,42 @@
 
-<!doctype html><html lang="es"><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Emirates Crew Portal</title>
-<link rel="manifest" href="manifest.json"><link rel="stylesheet" href="style.css">
-<meta name="theme-color" content="#111111"></head>
-<body>
-<header><h1>Emirates</h1><p>Captain José Alberto · Base DXB</p></header>
-<section class="hero"><small>Próximo Duty</small><h2>EK380 · DXB → HKG</h2><p>01 OCT · A380-800</p></section>
-<nav><button onclick="show('r')">Roster</button><button onclick="show('l')">Logbook</button><button onclick="show('f')">Fleet</button></nav>
-<main>
-<section id="r">
-<div class="card">01 OCT · EK380 · DXB→HKG · A380</div>
-<div class="card">02 OCT · EK381 · HKG→DXB · A380</div>
-<div class="card">05 OCT · EK167 · DXB→HEL · A350</div>
-<div class="card">09–12 OCT · EK255/256 · DXB→BCN→MEX→BCN→DXB · B777-200LR</div>
-<div class="card">15 OCT · EK5 · DXB→LHR · A380</div>
-<div class="card">19 OCT · EK161 · DXB→DUB · B777-300ER</div>
-<div class="card">23 OCT · EK318 · DXB→NRT · A380</div>
-<div class="card">26 OCT · EK512 · DXB→DEL · A380</div>
-<div class="card">30 OCT · EK143 · DXB→MAD · A350</div>
-</section>
-<section id="l" hidden><div class="card">Septiembre: HKG, KUL, AMS, HND, CPT ✓ · BRU vuelta, DUB y ZRH pendientes.</div></section>
-<section id="f" hidden><div class="card">A380 · B777-300ER · B777-200LR · A350-900</div></section>
-</main>
-<script>
-function show(id){['r','l','f'].forEach(x=>document.getElementById(x).hidden=x!==id)}
-</script></body></html>
+<link rel="manifest" href="manifest.json">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#0f0f10;font-family:-apple-system,BlinkMacSystemFont,"SF Pro Display",sans-serif;color:white}
+.header{padding:28px 22px 18px;background:#181818;border-bottom:1px solid #2a2a2a}
+.logo{font-size:34px;font-weight:700;color:#E31B23}
+.subtitle{margin-top:4px;color:#aaa;font-size:15px}
+.card-next{margin:18px;padding:22px;border-radius:22px;background:linear-gradient(135deg,#7a0000,#E31B23);box-shadow:0 8px 25px rgba(227,27,35,.35)}
+.card-next small{opacity:.85;font-size:12px}
+.card-next h2{margin-top:6px;font-size:28px}
+.card-next p{margin-top:6px;opacity:.9}
+.stats{display:flex;gap:12px;padding:0 18px;margin-bottom:22px}
+.stat{flex:1;background:#1b1b1d;border-radius:16px;padding:16px;text-align:center}
+.stat strong{font-size:24px;display:block}
+.section-title{padding:0 20px 10px;font-size:20px;font-weight:600}
+.flight{display:flex;align-items:center;gap:14px;margin:0 18px 12px;padding:16px;background:#1a1a1a;border-radius:18px}
+.bar{width:5px;height:58px;background:#28c76f;border-radius:20px}
+.info{flex:1}.date{font-size:12px;color:#888}.route{font-size:18px;font-weight:600;margin:2px 0}.aircraft{font-size:13px;color:#bbb}.arrow{font-size:24px;color:#777}
+.bottom{position:fixed;bottom:0;left:0;right:0;background:#151515;display:flex;justify-content:space-around;padding:14px 0 calc(14px + env(safe-area-inset-bottom));border-top:1px solid #2a2a2a}
+.tab{text-align:center;font-size:12px;color:#888}.tab.active{color:#E31B23}.spacer{height:90px}
+</style></head><body>
+<div class="header"><div class="logo">Emirates</div><div class="subtitle">Captain José Alberto • Base DXB</div></div>
+<div class="card-next"><small>Próximo Duty</small><h2>EK380</h2><p>DXB → HKG • A380-800</p></div>
+<div class="stats"><div class="stat"><strong>120h</strong>Horas</div><div class="stat"><strong>11</strong>Sectores</div><div class="stat"><strong>6</strong>Destinos</div></div>
+<div class="section-title">Octubre 2026</div>
+<div class="flight"><div class="bar"></div><div class="info"><div class="date">01 OCT</div><div class="route">EK380 DXB → HKG</div><div class="aircraft">A380 • Block 7:25</div></div><div class="arrow">›</div></div>
+<div class="flight"><div class="bar"></div><div class="info"><div class="date">02 OCT</div><div class="route">EK381 HKG → DXB</div><div class="aircraft">A380</div></div><div class="arrow">›</div></div>
+<div class="flight"><div class="bar"></div><div class="info"><div class="date">05 OCT</div><div class="route">EK167 DXB → HEL</div><div class="aircraft">A350-900</div></div><div class="arrow">›</div></div>
+<div class="flight"><div class="bar"></div><div class="info"><div class="date">09–12 OCT</div><div class="route">EK255/256 BCN → MEX</div><div class="aircraft">B777-200LR</div></div><div class="arrow">›</div></div>
+<div class="flight"><div class="bar"></div><div class="info"><div class="date">15 OCT</div><div class="route">EK5 DXB → LHR</div><div class="aircraft">A380</div></div><div class="arrow">›</div></div>
+<div class="flight"><div class="bar"></div><div class="info"><div class="date">19 OCT</div><div class="route">EK161 DXB → DUB</div><div class="aircraft">B777-300ER</div></div><div class="arrow">›</div></div>
+<div class="flight"><div class="bar"></div><div class="info"><div class="date">23 OCT</div><div class="route">EK318 DXB → NRT</div><div class="aircraft">A380</div></div><div class="arrow">›</div></div>
+<div class="flight"><div class="bar"></div><div class="info"><div class="date">26 OCT</div><div class="route">EK512 DXB → DEL</div><div class="aircraft">A380</div></div><div class="arrow">›</div></div>
+<div class="flight"><div class="bar"></div><div class="info"><div class="date">30 OCT</div><div class="route">EK143 DXB → MAD</div><div class="aircraft">A350-900</div></div><div class="arrow">›</div></div>
+<div class="spacer"></div><div class="bottom"><div class="tab active">✈️<br>Roster</div><div class="tab">📖<br>Logbook</div><div class="tab">🌍<br>Mapa</div><div class="tab">🛫<br>Fleet</div></div></body></html>
