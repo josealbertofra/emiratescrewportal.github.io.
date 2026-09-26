@@ -1,74 +1,92 @@
 [
   {
+    "day": "WED",
     "date": "01 OCT",
     "flight": "EK380",
     "from": "DXB",
     "to": "HKG",
     "aircraft": "A380",
-    "block": "7:25"
+    "block": "7:25",
+    "duty": "9:00"
   },
   {
+    "day": "THU",
     "date": "02 OCT",
     "flight": "EK381",
     "from": "HKG",
     "to": "DXB",
     "aircraft": "A380",
-    "block": "8:10"
+    "block": "8:10",
+    "duty": "9:45"
   },
   {
+    "day": "SUN",
     "date": "05 OCT",
     "flight": "EK167",
     "from": "DXB",
     "to": "HEL",
-    "aircraft": "A350",
-    "block": "7:05"
+    "aircraft": "A350-900",
+    "block": "7:05",
+    "duty": "8:40"
   },
   {
+    "day": "THU",
     "date": "09 OCT",
     "flight": "EK255",
     "from": "BCN",
     "to": "MEX",
     "aircraft": "B777-200LR",
-    "block": "15:10"
+    "block": "15:10",
+    "duty": "17:00"
   },
   {
+    "day": "WED",
     "date": "15 OCT",
     "flight": "EK005",
     "from": "DXB",
     "to": "LHR",
     "aircraft": "A380",
-    "block": "7:35"
+    "block": "7:35",
+    "duty": "9:10"
   },
   {
+    "day": "SUN",
     "date": "19 OCT",
     "flight": "EK161",
     "from": "DXB",
     "to": "DUB",
     "aircraft": "B777-300ER",
-    "block": "8:05"
+    "block": "8:05",
+    "duty": "9:40"
   },
   {
+    "day": "THU",
     "date": "23 OCT",
     "flight": "EK318",
     "from": "DXB",
     "to": "NRT",
     "aircraft": "A380",
-    "block": "9:25"
+    "block": "9:25",
+    "duty": "11:10"
   },
   {
+    "day": "SUN",
     "date": "26 OCT",
     "flight": "EK512",
     "from": "DXB",
     "to": "DEL",
     "aircraft": "A380",
-    "block": "3:30"
+    "block": "3:30",
+    "duty": "5:00"
   },
   {
+    "day": "THU",
     "date": "30 OCT",
     "flight": "EK143",
     "from": "DXB",
     "to": "MAD",
-    "aircraft": "A350",
-    "block": "7:45"
+    "aircraft": "A350-900",
+    "block": "7:45",
+    "duty": "9:20"
   }
 ]
