@@ -1,0 +1,1 @@
+Sube estos archivos a tu repositorio y activa GitHub Pages en la rama main.
