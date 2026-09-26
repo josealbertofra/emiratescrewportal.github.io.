@@ -4,8 +4,8 @@
   "display": "standalone",
   "start_url": "/emiratescrewportal.github.io/",
   "scope": "/emiratescrewportal.github.io/",
-  "background_color": "#111111",
-  "theme_color": "#111111",
+  "background_color": "#0d0d0f",
+  "theme_color": "#0d0d0f",
   "icons": [
     {
       "src": "assets/icon.svg",
