@@ -20,6 +20,17 @@
     "duty": "09:45"
   },
   {
+    "day": "FRI",
+    "date": "03 OCT",
+    "flight": "OFF",
+    "from": "",
+    "to": "",
+    "aircraft": "Rest Day",
+    "block": "-",
+    "duty": "-",
+    "off": true
+  },
+  {
     "day": "SUN",
     "date": "05 OCT",
     "flight": "EK167",
