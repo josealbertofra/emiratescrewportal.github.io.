@@ -5,9 +5,9 @@
     "flight": "EK380",
     "from": "DXB",
     "to": "HKG",
-    "aircraft": "A380",
+    "aircraft": "A380-800",
     "block": "7:25",
-    "duty": "9:00"
+    "duty": "09:00"
   },
   {
     "day": "THU",
@@ -15,9 +15,9 @@
     "flight": "EK381",
     "from": "HKG",
     "to": "DXB",
-    "aircraft": "A380",
+    "aircraft": "A380-800",
     "block": "8:10",
-    "duty": "9:45"
+    "duty": "09:45"
   },
   {
     "day": "SUN",
@@ -27,7 +27,7 @@
     "to": "HEL",
     "aircraft": "A350-900",
     "block": "7:05",
-    "duty": "8:40"
+    "duty": "08:40"
   },
   {
     "day": "THU",
@@ -45,9 +45,9 @@
     "flight": "EK005",
     "from": "DXB",
     "to": "LHR",
-    "aircraft": "A380",
+    "aircraft": "A380-800",
     "block": "7:35",
-    "duty": "9:10"
+    "duty": "09:10"
   },
   {
     "day": "SUN",
@@ -57,7 +57,7 @@
     "to": "DUB",
     "aircraft": "B777-300ER",
     "block": "8:05",
-    "duty": "9:40"
+    "duty": "09:40"
   },
   {
     "day": "THU",
@@ -65,7 +65,7 @@
     "flight": "EK318",
     "from": "DXB",
     "to": "NRT",
-    "aircraft": "A380",
+    "aircraft": "A380-800",
     "block": "9:25",
     "duty": "11:10"
   },
@@ -75,9 +75,9 @@
     "flight": "EK512",
     "from": "DXB",
     "to": "DEL",
-    "aircraft": "A380",
+    "aircraft": "A380-800",
     "block": "3:30",
-    "duty": "5:00"
+    "duty": "05:00"
   },
   {
     "day": "THU",
@@ -87,6 +87,6 @@
     "to": "MAD",
     "aircraft": "A350-900",
     "block": "7:45",
-    "duty": "9:20"
+    "duty": "09:20"
   }
 ]
