@@ -2,6 +2,8 @@
   "name": "Emirates Crew Portal",
   "short_name": "Crew Portal",
   "display": "standalone",
+  "start_url": "/emiratescrewportal.github.io/",
+  "scope": "/emiratescrewportal.github.io/",
   "background_color": "#111111",
   "theme_color": "#111111",
   "icons": [

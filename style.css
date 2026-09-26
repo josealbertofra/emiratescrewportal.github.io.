@@ -1,1 +1,6 @@
-body{font-family:-apple-system;background:#111;color:#fff;padding:20px}h1{color:#e31b23}.card{background:#8b0000;padding:16px;border-radius:16px}
+
+body{margin:0;background:#111;color:#fff;font-family:-apple-system,BlinkMacSystemFont,sans-serif}
+header{padding:24px;background:#181818}h1{margin:0;color:#E31B23;font-size:34px}
+.hero{margin:16px;background:linear-gradient(135deg,#7a0000,#E31B23);padding:18px;border-radius:18px}
+nav{display:flex;gap:8px;padding:0 16px}button{flex:1;padding:12px;border:0;border-radius:10px;background:#222;color:#fff}
+.card{margin:16px;padding:16px;border-radius:14px;background:#1d1d1d}

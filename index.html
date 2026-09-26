@@ -1,1 +1,28 @@
-<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Emirates Crew Portal</title><link rel="manifest" href="manifest.json"><link rel="stylesheet" href="style.css"><body><h1>Emirates Crew Portal</h1><p>Captain José Alberto • Base DXB</p><div class="card">Próximo vuelo: EK380 DXB→HKG A380</div><h2>Octubre</h2><ul><li>EK380 DXB→HKG</li><li>EK381 HKG→DXB</li><li>EK167 DXB→HEL</li><li>EK255 DXB→BCN→MEX</li><li>EK5 DXB→LHR</li><li>EK161 DXB→DUB</li><li>EK318 DXB→NRT</li><li>EK512 DXB→DEL</li><li>EK143 DXB→MAD</li></ul>
+
+<!doctype html><html lang="es"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Emirates Crew Portal</title>
+<link rel="manifest" href="manifest.json"><link rel="stylesheet" href="style.css">
+<meta name="theme-color" content="#111111"></head>
+<body>
+<header><h1>Emirates</h1><p>Captain José Alberto · Base DXB</p></header>
+<section class="hero"><small>Próximo Duty</small><h2>EK380 · DXB → HKG</h2><p>01 OCT · A380-800</p></section>
+<nav><button onclick="show('r')">Roster</button><button onclick="show('l')">Logbook</button><button onclick="show('f')">Fleet</button></nav>
+<main>
+<section id="r">
+<div class="card">01 OCT · EK380 · DXB→HKG · A380</div>
+<div class="card">02 OCT · EK381 · HKG→DXB · A380</div>
+<div class="card">05 OCT · EK167 · DXB→HEL · A350</div>
+<div class="card">09–12 OCT · EK255/256 · DXB→BCN→MEX→BCN→DXB · B777-200LR</div>
+<div class="card">15 OCT · EK5 · DXB→LHR · A380</div>
+<div class="card">19 OCT · EK161 · DXB→DUB · B777-300ER</div>
+<div class="card">23 OCT · EK318 · DXB→NRT · A380</div>
+<div class="card">26 OCT · EK512 · DXB→DEL · A380</div>
+<div class="card">30 OCT · EK143 · DXB→MAD · A350</div>
+</section>
+<section id="l" hidden><div class="card">Septiembre: HKG, KUL, AMS, HND, CPT ✓ · BRU vuelta, DUB y ZRH pendientes.</div></section>
+<section id="f" hidden><div class="card">A380 · B777-300ER · B777-200LR · A350-900</div></section>
+</main>
+<script>
+function show(id){['r','l','f'].forEach(x=>document.getElementById(x).hidden=x!==id)}
+</script></body></html>
